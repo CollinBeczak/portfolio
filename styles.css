@@ -1,3 +1,122 @@
-.header {
-  color: red;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 0;
+}
+
+body {
+  width: 100%;
+  overflow: unset;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Header container */
+.headerContainer {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0, .5);
+  z-index: 999
+}
+
+.navbar {
+  max-width: 1500px;
+  width: 80%;
+  padding: 20px;
+  display: flex;
+  color: white;
+}
+
+.name {
+  flex: 1;
+  margin: auto;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.name:hover {
+  color: crimson;
+  cursor: pointer;
+}
+
+.navbar ul {
+
+  display: flex;
+  list-style: none;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  margin: 10px 30px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  color: crimson;
+  cursor: pointer;
+}
+
+/* End Header container */
+
+/* home container */
+.homeContainer {
+  background-image: url('./img/computer-programming.jpeg');
+  background-size: cover;
+  filter: brightness(100%);
+  z-index: 1;
+
+}
+
+/* end home container */
+
+/*  resume container */
+
+.resumeContainer {
+
+  background-color: black;
+}
+
+/* end resume container */
+
+/*  projects container */
+
+.projectsContainer {
+
+  background-color: red;
+}
+
+/* end projects container */
+
+/*  contact container */
+
+.contactContainer {
+
+  background-color: blue;
+}
+
+/* end contact container */
+
+
+
+
+@media only screen and (max-width: 600px) {
+  li {
+    display: none;
+  }
 }
