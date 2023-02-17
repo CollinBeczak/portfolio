@@ -1,0 +1,46 @@
+/*vvvvvvvvvvvvvvvvvvvvvvvvv Base vvvvvvvvvvvvvvvvvvvvvvvvvvv*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 1rem;
+  background-color: hsl(240, 17%, 44%);
+  color: hsl(240, 8%, 45%);
+}
+
+/*vvvvvvvvvvvvvvvvvvvvvvvvv Header vvvvvvvvvvvvvvvvvvvvvvvvv*/
+
+/*vvvvvvvvvvvvvvvvvvvvvvvvv HOME vvvvvvvvvvvvvvvvvvvvvvvvvvv*/
+
+/*vvvvvvvvvvvvvvvvvvvvvvvvv BUTTONS vvvvvvvvvvvvvvvvvvvvvvvv*/
+
+/*vvvvvvvvvvvvvvvvvvvvvvvvv ABOUT vvvvvvvvvvvvvvvvvvvvvvvvvv*/
+
+/*vvvvvvvvvvvvvvvvvvvvvvvvv SKILLS vvvvvvvvvvvvvvvvvvvvvvvvv*/
+
+/*vvvvvvvvvvvvvvvvvvvvvvvvv QUALIFICATION vvvvvvvvvvvvvvvvvv*/
+
+/*vvvvvvvvvvvvvvvvvvvvvvvvv PORTFOLIO vvvvvvvvvvvvvvvvvvvvvv*/
+
+/*vvvvvvvvvvvvvvvvvvvvvvvvv MY CURRENT PROJECT vvvvvvvvvvvvv*/
+
+/*vvvvvvvvvvvvvvvvvvvvvvvvv TESTIMONIALS vvvvvvvvvvvvvvvvvvv*/
+
+/*vvvvvvvvvvvvvvvvvvvvvvvvv CONTACT ME vvvvvvvvvvvvvvvvvvvvv*/
+
+/*vvvvvvvvvvvvvvvvvvvvvvvvv FOOTER vvvvvvvvvvvvvvvvvvvvvvvvv*/
+
+/*vvvvvvvvvvvvvvvvvvvvvvvvv MEDIA QUERIES vvvvvvvvvvvvvvvvvv*/
+/* For small devices */
+/* For medium devices */
+/* For large devices */
