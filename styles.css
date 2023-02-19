@@ -249,9 +249,109 @@ img {
 
 
 /*vvvvvvvvvvvvvvvvvvvvvvvvvvvv Home vvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
+.homeContainer {
+  gap: 1rem;
+}
 
+.homeContent {
+  grid-template-columns: .5fr 3fr;
+  padding-top: 3.5rem;
+  align-items: center;
+}
+
+.homeSocial {
+  display: grid;
+  grid-template-columns: max-content;
+  row-gap: 1rem;
+}
+
+.socialIcon:hover {
+  font-size: 1.25rem;
+  color: var(--first-color-alt);
+}
+
+.homeBlob {
+  width: 200px;
+  fill: var(--first-color);
+}
+
+.blobImage {
+  margin-top: -20px;
+  width: 200px;
+}
+
+.homeData {
+  grid-column: 1/3;
+}
+
+.homeTitle {
+  font-size: var(--big-font-size);
+}
+
+.homeSubtitle {
+  font-size: var(--h3-font-size);
+  color: var(--text-color);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-0-75)
+}
+
+.homeDescription {
+  margin-bottom: var(--mb-2);
+}
+
+.homeScroll {
+  /* display: none; */
+}
+
+.homeScrollButton {
+  color: var(--first-color);
+  transition: .3s;
+}
+
+.homeScrollButton:hover {
+  transform: translateY(.25rem);
+}
+
+.homeScrollMouse {
+  font-size: 2rem
+}
+
+.homeScrollName {
+  font-size: var(--small-font-size);
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  margin-right: var(--mb-0-25);
+}
+
+.homeScrollArrow {
+  font-size: 1.25rem;
+}
 
 /*vvvvvvvvvvvvvvvvvvvvvvvvvvvv Links vvvvvvvvvvvvvvvvvvvvvvvvv*/
+
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: white;
+  padding: 1rem;
+  border-radius: .5rem;
+  font-weight: var(--font-medium);
+}
+
+.button:hover {
+  background-color: var(--first-color-alt);
+}
+
+.buttonIcon {
+  font-size: 1.25rem;
+  margin-left: var(--mb-0-5);
+  transition: .3s;
+}
+
+.buttonFlex {
+  display: inline-flex;
+  align-items: center;
+}
 
 
 /*vvvvvvvvvvvvvvvvvvvvvvvvvvvv About vvvvvvvvvvvvvvvvvvvvvvvvvvv*/
