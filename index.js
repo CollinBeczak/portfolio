@@ -5,7 +5,6 @@ const navClose = document.getElementById('navClose')
 /*vvvv= MENU SHOW vvvvvvvv*/
 /* Validate if constant exists */
 if(navToggle) {
-  console.log('asdfadsf')
   navToggle.addEventListener('click', () => {
     navMenu.classList.add('showMenu')
   })
@@ -14,7 +13,6 @@ if(navToggle) {
 /*vvvv= MENU HIDDEN vvvvv*/
 /* Validate if constant exists */
 if(navClose) {
-  console.log('asdfadsfasdkflhaghsdlghfk')
   navClose.addEventListener('click', () => {
     navMenu.classList.remove('showMenu')
   })
@@ -35,6 +33,22 @@ navLink.forEach(e => e.addEventListener('click', linkAction))
 
 /*vvvvvvvvvvvvvvvvvvvv ACCORDION SKILLS vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
 
+const skillsContent = document.getElementsByClassName('skillsContent')
+const skillsHeader = document.querySelectorAll('.skillsHeader')
+
+function toggleSkills() {
+  let itemClass = this.parentNode.className
+  for(i = 0; i < skillsContent.length; i++) {
+    skillsContent[i].className = 'skillsContent skillsClose'
+  }
+  if(itemClass === 'skillsContent skillsClose'){
+    this.parentNode.className = 'skillsContent skillsOpen'
+  }
+}
+
+skillsHeader.forEach((el) => {
+  el.addEventListener('click', toggleSkills)
+})
 /*vvvvvvvvvvvvvvvvvvvv QUALIFICATION TABS vvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
 
 /*vvvvvvvvvvvvvvvvvvvv SERVICES MODAL vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/

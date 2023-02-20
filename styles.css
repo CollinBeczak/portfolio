@@ -121,19 +121,19 @@ img {
   padding: 2rem 0 4rem;
 }
 
-.section__title {
+.sectionTitle {
   font-size: var(--h1-font-size);
   color: var(--title-color);
 }
 
-.section__subtitle {
+.sectionSubtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-3);
 }
 
-.section__title,
-.section__subtitle {
+.sectionTitle,
+.sectionSubtitle {
   text-align: center;
 }
 
@@ -265,8 +265,12 @@ img {
   row-gap: 1rem;
 }
 
-.socialIcon:hover {
+.homeIcons {
   font-size: 1.25rem;
+  color: var(--first-color)
+}
+
+.homeIcons:hover {
   color: var(--first-color-alt);
 }
 
@@ -356,9 +360,155 @@ img {
 
 /*vvvvvvvvvvvvvvvvvvvvvvvvvvvv About vvvvvvvvvvvvvvvvvvvvvvvvvvv*/
 
+.aboutImage {
+  width: 250px;
+  border-radius: .5rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.aboutDescription {
+  text-align: center;
+  margin-bottom: var(--mb-2-5)
+}
+
+.aboutInfo {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: var(--mb-2-5)
+}
+
+.aboutInfoTitle {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+}
+
+.aboutInfoName {
+  font-size: var(--smaller-font-size);
+}
+
+.aboutInfoTitle,
+.aboutInfoName {
+  display: block;
+  text-align: center;
+}
+
+.aboutButtons {
+  display: flex;
+  justify-content: center;
+}
+
+
 
 /*vvvvvvvvvvvvvvvvvvvvvvvvvvvv Skills vvvvvvvvvvvvvvvvvvvvvvvvvv*/
 
+.skillsContainer {
+  row-gap: 0;
+}
+
+.skillsHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-2-5);
+  cursor: pointer;
+}
+
+.skillsIcon,
+.skillsArrow {
+  font-size: 2rem;
+  color: var(--first-color);
+}
+
+.skillsIcon {
+  margin-right: var(--mb-0-75);
+}
+
+.skillsTitle {
+  font-size: var(--h3-font-size)
+}
+
+.skillsSubtitle {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light)
+}
+
+.skillsArrow {
+  margin-left: auto;
+  transition: .4s
+}
+
+.skillsTitles {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--mb-0-5);
+}
+
+.skillsName {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium)
+}
+
+.skillsBar,
+.skillsPercentage {
+  height: 5px;
+  border-radius: .25rem
+}
+
+.skillsBar {
+  background-color: var(--first-color-lighter)
+}
+
+.skillsPercentage {
+  display: block;
+  background-color: var(--first-color);
+}
+
+.skillsHtml {
+  width: 90%
+}
+
+.skillsCss {
+  width: 70%
+}
+
+.skillsJavascript {
+  width: 60%
+}
+
+.skillsReact {
+  width: 85%
+}
+
+.skillsNodeJS {
+  width: 20%
+}
+
+.skillsPython {
+  width: 1%
+}
+
+.skillsFirebase {
+  width: 1%
+}
+
+.skillsPHP {
+  width: 1%
+}
+
+.skillsClose .skillsList {
+  height: 0;
+  overflow: hidden;
+}
+
+.skillsOpen .skillsList {
+  height: max-content;
+  margin-bottom: var(--mb-2-5)
+}
+
+.skillsOpen .skillsArrowIcon {
+  transform: rotate(-180deg)
+}
 
 /*vvvvvvvvvvvvvvvvvvvvvvvvvvvv Qualifications vvvvvvvvvvvvvvvvvvv*/
 
