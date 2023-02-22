@@ -55,6 +55,18 @@ skillsHeader.forEach((el) => {
 
 /*vvvvvvvvvvvvvvvvvvvv PORTFOLIO SWIPER  vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
 
+let swiper = new Swiper(".portfolioContainer", {
+  cssMode: true,
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
 /*vvvvvvvvvvvvvvvvvvvv TESTIMONIAL vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
 
 /*vvvvvvvvvvvvvvvvvvvv SCROLL SECTIONS ACTIVE LINK vvvvvvvvvvvvvvvvvvvv*/

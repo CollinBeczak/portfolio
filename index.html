@@ -4,20 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9.0.5/swiper-bundle.css">
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="styles.css">
   <title>Collin Beczak's Portfolio Website</title>
-  <!--vvvvvvvvvvvvvvvvvvvv Unicons vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv-->
-
-
-  <!--vvvvvvvvvvvvvvvvvvvv Swiper CSS vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv-->
-  <link rel="stylesheet" href="">
-
-  <!--vvvvvvvvvvvvvvvvvvvv CSS vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv-->
-  <link rel="stylesheet" href="">
-
-  <title>Responsive Portfolio Website</title>
 </head>
 
 <body>
@@ -135,8 +126,8 @@
         <img src="./img/coding.jpeg" alt="" class="aboutImage">
         <div class="aboutData">
           <p class="aboutDescription">
-            Software Developer, able to do well under pressure, handle
-            responsibility, and. communicated effectively with teammates.
+            Software Developer, able to work well under pressure, handle
+            responsibility, and communicate effectively with teammates.
             Looking to gain deep knowledge in web and mobile technologies
             in addition to professional software development and delivery
             best practices.
@@ -289,15 +280,83 @@
     </section>
 
     <!--vvvvvvvvvvvvvvvvvvvv Qualificaitons vvvvvvvvvvvvvvvvvvvvvvv-->
-    <section class="qualification section">
-      <!-- This will be my work experience section of my portfolio, but
-      as of now it will just be a description stating that I am
-      looking for my first job. -->
-    </section>
+    <!-- <section class="qualification section">
+      I dont have any qualifcations or actual work experience yet,
+      but this is where it will go after i get my first job in software
+      developement
+    </section> -->
 
     <!--vvvvvvvvvvvvvvvvvvvv Portfolio vvvvvvvvvvvvvvvvvvvvvvvvvvvv-->
     <section class="portfolio section" id="portfolio">
-      <!-- this will be a slide show of my projects -->
+      <h2 class="sectionTitle">About Me</h2>
+      <span class="sectionSubtitle">My introduction</span>
+      <div class="portfolioContainer container swiper mySwiper">
+        <div class="swiper-wrapper">
+          <!-- vvv Completed Project 1 vvv -->
+          <div class="portfolioContent grid swiper-slide">
+            <img src="./img/coding.jpeg" alt="" class="portfolioImage">
+            <div class="portfolioData">
+              <h3 class="portfolioTitle">Projects Name 1</h3>
+              <p class="portfolioDescription">Project Description</p>
+              <a href="#" class="button buttonFlex buttonSmall portfolioButton">
+                Demo
+                <i class="uil uil-arrow-right buttonIcon"></i>
+              </a>
+            </div>
+          </div>
+          <!-- vvv Completed Project 2 vvv -->
+          <div class="portfolioContent grid swiper-slide">
+            <img src="./img/coding.jpeg" alt="" class="portfolioImage">
+            <div class="portfolioData">
+              <h3 class="portfolioTitle">Projects Name 2</h3>
+              <p class="portfolioDescription">Project Description</p>
+              <a href="#" class="button buttonFlex buttonSmall portfolioButton">
+                Demo
+                <i class="uil uil-arrow-right buttonIcon"></i>
+              </a>
+            </div>
+          </div>
+          <!-- vvv Completed Project 3 vvv -->
+          <div class="portfolioContent grid swiper-slide">
+            <img src="./img/coding.jpeg" alt="" class="portfolioImage">
+            <div class="portfolioData">
+              <h3 class="portfolioTitle">Projects Name 3</h3>
+              <p class="portfolioDescription">Project Description</p>
+              <a href="#" class="button buttonFlex buttonSmall portfolioButton">
+                Demo
+                <i class="uil uil-arrow-right buttonIcon"></i>
+              </a>
+            </div>
+          </div>
+          <!-- vvv Completed Project 4 vvv -->
+          <div class="portfolioContent grid swiper-slide">
+            <img src="./img/coding.jpeg" alt="" class="portfolioImage">
+            <div class="portfolioData">
+              <h3 class="portfolioTitle">Projects Name 4</h3>
+              <p class="portfolioDescription">Project Description</p>
+              <a href="#" class="button buttonFlex buttonSmall portfolioButton">
+                Demo
+                <i class="uil uil-arrow-right buttonIcon"></i>
+              </a>
+            </div>
+          </div>
+          <!-- vvv Completed Project 5 vvv -->
+          <div class="portfolioContent grid swiper-slide">
+            <img src="./img/coding.jpeg" alt="" class="portfolioImage">
+            <div class="portfolioData">
+              <h3 class="portfolioTitle">Projects Name 5</h3>
+              <p class="portfolioDescription">Project Description</p>
+              <a href="#" class="button buttonFlex buttonSmall portfolioButton">
+                Demo
+                <i class="uil uil-arrow-right buttonIcon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"><i class="uil uil-angle-right-b swiperIcon"></i></div>
+        <div class="swiper-button-prev"><i class="uil uil-angle-left-b swiperIcon"></i></div>
+        <div class="swiper-pagination"></div>
+      </div>
     </section>
 
     <!--vvvvvvvvvvvvvvvvvvvv Project In Mind vvvvvvvvvvvvvvvvvvvvvv-->
@@ -307,10 +366,10 @@
     </section>
 
     <!--vvvvvvvvvvvvvvvvvvvv Testimonials vvvvvvvvvvvvvvvvvvvvvvvvv-->
-    <section class="testimonial section">
-      <!-- This is also a filler section for when i get my first job and
-      impress my boss and co-workers -->
-    </section>
+    <!-- <section class="testimonial section">
+       This will be where my testimonials go after i get my first job
+       in software developement.
+    </section>-->
 
     <!--vvvvvvvvvvvvvvvvvvvv Contact Me vvvvvvvvvvvvvvvvvvvvvvvvvvv-->
     <section class="contact section" id="contact">
@@ -327,7 +386,7 @@
 
 
   <!--vvvvvvvvvvvvvvvvvvvv Swiper JS vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv-->
-  <script src=""></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9.0.5/swiper-bundle.min.js"></script>
 
   <!--vvvvvvvvvvvvvvvvvvvv Main JS vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv-->
   <script src="./index.js"></script>
